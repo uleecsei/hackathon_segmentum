@@ -7,6 +7,15 @@ html {
     font-size: 20px
 }
 
+p{
+    font-family: consolas; 
+}
+h5{
+    font-family: consolas;
+}
+span{
+    font-family: consolas;
+}
 .interface-wrapper {
     position: absolute;
     top: 0;
@@ -14,9 +23,18 @@ html {
     z-index: 9999;
 }
 
+.left {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
 .interface-left {
     background-color: rgba(127, 127, 127, 0.44);
     color: white;
+    height: 1000px;
+     margin: 0px; 
+     padding: 0px;
 }
 
 .menu-separator {
@@ -28,7 +46,9 @@ html {
 .menu-item {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+}
+.col {
+    height: 246px;
 }
 
 .menu-item>.left img {
@@ -46,7 +66,7 @@ html {
 .menu-item>.right>span {
     align-items: center;
     font-size: 35px;
-    margin-bottom: 5px;
+    margin-bottom: 25px;
 }
 
 .menu-item>.right .progress {
