@@ -29,6 +29,11 @@ span{
     justify-content: center;
     align-content: center;
 }
+.right {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
 
 .interface-left {
     background-color: rgba(127, 127, 127, 0.44);
@@ -68,6 +73,23 @@ span{
     align-items: center;
     font-size: 35px;
     margin-bottom: 25px;
+}
+
+.shop {
+    padding-top: 2px;
+    height: 900px;
+    width: 717px;
+    background: rgba(127, 127, 127, 0.44);
+    border-radius: 20px;
+}
+
+.shopItem{
+    margin-top: 27px;
+    margin-left: 20px;
+    height: 273px;
+    width: 680px;
+    background:  rgba(171, 171, 171, 1);
+    border-radius: 20px;
 }
 
 .menu-item>.right .progress {

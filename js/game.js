@@ -8,6 +8,10 @@ var Settings = {
 
 var isPlay = false;
 
+$('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })
+
 window.onload = function() {
     Crafty.extend({
         /**@
