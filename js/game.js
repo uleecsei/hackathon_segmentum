@@ -43,9 +43,10 @@ window.onload = function() {
 
         Crafty.scene("main");
 
+        $(".hello-wrapper").hide();
+
         isPlay = true;
 
-        $(".hello-wrapper").hide();
 
         $(".interface-wrapper").show();
     });

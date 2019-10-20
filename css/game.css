@@ -93,7 +93,8 @@ p {
 .hello-wrapper {
     color: white;
     text-align: center;
-    background-image: url("../images/background.jpg");
+    /* background-image: url("../images/background.jpg"); */
+    background-color: #000000;
     width: 100vw;
     height: 100vh;
     display: flex;
