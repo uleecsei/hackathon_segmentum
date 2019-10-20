@@ -12,6 +12,7 @@ html {
     top: 0;
     left: 0;
     z-index: 9999;
+    display: none;
 }
 
 .interface-left {
@@ -73,4 +74,30 @@ html {
 
 .menu-item-plus i:hover {
     color: green;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+.hello-wrapper {
+    color: white;
+    text-align: center;
+    background-image: url("../images/background.jpg");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }

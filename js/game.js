@@ -6,6 +6,8 @@ var Settings = {
     flower_count: 0 // цветоков на уровне
 };
 
+var isPlay = false;
+
 window.onload = function() {
     Crafty.extend({
         /**@
@@ -21,19 +23,30 @@ window.onload = function() {
         },
     });
 
-    Crafty.init(Settings.width, Settings.height); // инизиализируем игровое поле
-
-    // подгружаем спрайт
-    Crafty.sprite(60, "images/sat.png", {
-        satellite1: [0, 0],
-        satellite2: [1, 0],
-        trash1: [2, 0],
-        trash2: [3, 0],
-        trash3: [4, 0],
-        gc: [5, 0]
-
-    });
-
     // запускаем первую сцену
-    Crafty.scene("main");
+    $("body").keydown(function() {
+        if (isPlay) {
+            return;
+        }
+        Crafty.init(Settings.width, Settings.height); // инизиализируем игровое поле
+
+        // подгружаем спрайт
+        Crafty.sprite(60, "images/sat.png", {
+            satellite1: [0, 0],
+            satellite2: [1, 0],
+            trash1: [2, 0],
+            trash2: [3, 0],
+            trash3: [4, 0],
+            gc: [5, 0]
+
+        });
+
+        Crafty.scene("main");
+
+        isPlay = true;
+
+        $(".hello-wrapper").hide();
+
+        $(".interface-wrapper").show();
+    });
 };
