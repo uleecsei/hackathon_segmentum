@@ -6,3 +6,71 @@ html {
     font-family: Arial;
     font-size: 20px
 }
+
+.interface-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.interface-left {
+    background-color: rgba(127, 127, 127, 0.44);
+    color: white;
+}
+
+.menu-separator {
+    height: 2px;
+    background-color: white;
+    margin: 10px 20px 5px;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.menu-item>.left img {
+    height: 150px;
+    margin: 20px;
+    margin-left: 35px;
+    margin-bottom: 0;
+}
+
+.menu-item>.right {
+    text-align: center;
+    color: white;
+}
+
+.menu-item>.right>span {
+    align-items: center;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.menu-item>.right .progress {
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.js_plus {
+    font-size: 20px;
+}
+
+.js_plus:hover {
+    color: green;
+}
+
+.menu-item-plus {
+    font-size: 20px;
+}
+
+.menu-item-plus i {
+    font-size: 100px;
+}
+
+.menu-item-plus i:hover {
+    color: green;
+}

@@ -5,6 +5,12 @@
 <head>
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="js/crafty-min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
     <!-- objects -->
     <script type="text/javascript" src="js/objects/spaceObject.js"></script>
@@ -24,6 +30,125 @@
     <title>Nasa game</title>
 </head>
 
-<body></body>
+<body>
+    <!-- <img src="images/menu.png" alt="" style="position: absolute;z-index: 1;"> -->
+    <!-- <button type="button" style="position: absolute;width: 60px;height: 60px; z-index: 1000;text-align: center; margin-top: 826px; margin-left: 201px;" class="btn btn-secondary btn-lg"> + </button> -->
+
+
+    <div class='interface-wrapper'>
+        <div class="interface-left">
+            <div class="">
+                <div class="col">
+                    <div class="menu-item">
+                        <div class="left">
+                            <img src="images/sg.png">
+                        </div>
+                        <div class="right">
+                            <h5>METEOSAT</h5>
+                            <span class="d-flex">
+                            <i class="fa fa-plus-circle"></i>
+                            <div class="progress">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <i class="fa fa-plus js_plus"></i>
+                        </span>
+                            <span class="d-flex">
+                                <i class="fa fa-clock-o"></i>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <i class="fa fa-plus js_plus"></i>
+                            </span>
+                            <span class="d-flex">
+                                    <i class="fa fa-cart-plus"></i>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <i class="fa fa-plus js_plus"></i>
+                                </span>
+                        </div>
+                    </div>
+                    <hr class="menu-separator">
+                </div>
+
+                <div class="col">
+                    <div class="menu-item">
+                        <div class="left">
+                            <img src="images/sg.png">
+                        </div>
+                        <div class="right">
+                            <h5>METEOSAT</h5>
+                            <span class="d-flex">
+                                <i class="fa fa-plus-circle"></i>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <i class="fa fa-plus js_plus"></i>
+                            </span>
+                            <span class="d-flex">
+                                    <i class="fa fa-clock-o"></i>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <i class="fa fa-plus js_plus"></i>
+                                </span>
+                            <span class="d-flex">
+                                        <i class="fa fa-cart-plus"></i>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <i class="fa fa-plus js_plus"></i>
+                                    </span>
+                        </div>
+                    </div>
+                    <hr class="menu-separator">
+                </div>
+
+                <div class="col">
+                    <div class="menu-item">
+                        <div class="left">
+                            <img src="images/sg.png">
+                        </div>
+                        <div class="right">
+                            <h5>METEOSAT</h5>
+                            <span class="d-flex">
+                                    <i class="fa fa-plus-circle"></i>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <i class="fa fa-plus js_plus"></i>
+                                </span>
+                            <span class="d-flex">
+                                        <i class="fa fa-clock-o"></i>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <i class="fa fa-plus js_plus"></i>
+                                    </span>
+                            <span class="d-flex">
+                                            <i class="fa fa-cart-plus"></i>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <i class="fa fa-plus js_plus"></i>
+                                        </span>
+                        </div>
+                    </div>
+                    <hr class="menu-separator">
+                </div>
+
+                <div class="col">
+                    <div class="menu-item-plus text-center">
+                        <i id="button" class="fa fa-plus-circle"></i>
+                        <span><br/>Add Satellite</span>
+                    </div>
+                    <hr class="menu-separator">
+                </div>
+            </div>
+        </div>
+
+
+
+</body>
 
 </html>
